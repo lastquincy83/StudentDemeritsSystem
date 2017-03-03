@@ -1,3 +1,5 @@
+package com.student.model;
+
 /**
  * Created by Damian on 2017/02/18.
  */
@@ -28,7 +30,7 @@ public class Schools {
 
     @Override
     public String toString() {
-        return "Schools{" +
+        return "com.student.model.Schools{" +
                 "schoolID='" + schoolID + '\'' +
                 ", schoolName='" + schoolName + '\'' +
                 '}';

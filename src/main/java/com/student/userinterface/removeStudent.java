@@ -1,3 +1,7 @@
+package com.student.userinterface;
+
+import com.student.datainterface.MYSQLSchoolDB;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +10,7 @@ import java.util.Scanner;
 public class removeStudent {
     public void removeStudent(){
         Scanner sc = new Scanner(System.in);
-        schoolsDBImpl obj = new schoolsDBImpl();
+        MYSQLSchoolDB obj = new MYSQLSchoolDB();
         System.out.println("Enter Student ID to delete");
         String studentID = sc.nextLine();
         if(obj.findStudent(studentID)){

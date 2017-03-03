@@ -1,3 +1,9 @@
+package com.student.datainterface;
+
+import com.student.model.Schools;
+import com.student.model.Students;
+import com.student.model.Users;
+
 import java.util.List;
 
 /**

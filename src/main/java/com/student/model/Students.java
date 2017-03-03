@@ -1,4 +1,4 @@
-import java.sql.Connection;
+package com.student.model;
 
 /**
  * Created by Damian on 2017/02/18.
@@ -60,7 +60,7 @@ public class Students {
 
     @Override
     public String toString() {
-        return "Students{" +
+        return "com.student.model.Students{" +
                 "studentID='" + studentID + '\'' +
                 ", studentName='" + studentName + '\'' +
                 ", studentSurname='" + studentSurname + '\'' +

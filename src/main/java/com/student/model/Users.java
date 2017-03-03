@@ -1,3 +1,5 @@
+package com.student.model;
+
 /**
  * Created by Damian on 2017/02/18.
  */

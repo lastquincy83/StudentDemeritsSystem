@@ -1,3 +1,8 @@
+package com.student.userinterface;
+
+import com.student.datainterface.MYSQLSchoolDB;
+import com.student.model.Schools;
+
 import java.util.Scanner;
 
 /**
@@ -6,7 +11,7 @@ import java.util.Scanner;
 public class registerSchools {
     public void registerSchools(){
         Scanner sc = new Scanner(System.in);
-        schoolsDBImpl obj = new schoolsDBImpl();
+        MYSQLSchoolDB obj = new MYSQLSchoolDB();
         System.out.println("Enter School ID");
         String schoolID=sc.nextLine();
         System.out.println("Enter School name");

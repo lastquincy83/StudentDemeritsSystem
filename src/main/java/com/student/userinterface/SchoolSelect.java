@@ -1,3 +1,7 @@
+package com.student.userinterface;
+
+import com.student.datainterface.MYSQLSchoolDB;
+import com.student.model.Schools;
 
 import java.util.List;
 import java.util.Scanner;
@@ -9,7 +13,7 @@ public class SchoolSelect {
 
     public void SchoolSelect() {
         Scanner sc= new Scanner(System.in);
-        schoolsDBImpl obj = new schoolsDBImpl();
+        MYSQLSchoolDB obj = new MYSQLSchoolDB();
         while(true){
             System.out.println("Enter School ID or 0 to exit");
             String searchText = sc.nextLine();

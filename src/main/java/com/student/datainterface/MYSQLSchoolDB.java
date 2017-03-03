@@ -1,3 +1,8 @@
+package com.student.datainterface;
+
+import com.student.model.Schools;
+import com.student.model.Students;
+import com.student.model.Users;
 import com.sun.org.apache.xerces.internal.impl.xs.SchemaGrammar;
 
 import java.sql.Connection;
@@ -11,7 +16,7 @@ import java.sql.*;
 /**
  * Created by Damian on 2017/02/18.
  */
-public class schoolsDBImpl implements SchoolDBInterface{
+public class MYSQLSchoolDB implements SchoolDBInterface {
     static final String DB_URL = "jdbc:mysql://localhost:3311/StudentDemeritsSystem";
     static final String USER = "root";
     static final String PASS = "root";
@@ -94,7 +99,7 @@ public class schoolsDBImpl implements SchoolDBInterface{
             }
         }
 
-        public Boolean login(Users users,String password) {
+        public Boolean login(Users users, String password) {
             if (users.getUserID()==null){
                 return false;
             }

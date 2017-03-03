@@ -1,3 +1,7 @@
+package com.student.userinterface;
+
+import com.student.model.Schools;
+
 import java.util.List;
 import java.util.Scanner;
 
